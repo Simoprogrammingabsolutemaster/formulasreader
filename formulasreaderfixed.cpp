@@ -53,14 +53,14 @@ int main(){
         cout << "there is a mistake in the writing" << '\n';
     }
 
-        // controllo se tutto funziona
+        // just a check
         compound.erase(0 , (position+1));
         cout << compound << '\n';
         cout << firstElement << '\n';
         cout << numberOfElement << '\n';
     
 
-    // fine del programma per analizzare il secondo elemento
+    // end of the program and getting reade to analize the second element
         position = 0;
         temporaryPosition = 0;
         firstElement.clear();
